@@ -10,6 +10,6 @@ public class ClientService {
     private String client;
 
     public String sayHello(){
-        return "Hello!: " + client;
+        return "АЛИХАН ЛОХ";
     }
 }
