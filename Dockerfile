@@ -5,7 +5,7 @@ FROM openjdk:17-oracle
 WORKDIR /app
 
 # Копируем файл build/libs/your-application-name.jar из локальной директории Gradle проекта в контейнер
-COPY build/libs/rendertest-0.0.1-SNAPSHOT.jar .
+COPY gradle/rendertest-0.0.1-SNAPSHOT.jar .
 
 # В случае, если вам нужны дополнительные зависимости или ресурсы, скопируйте их в контейнер
 # COPY src/main/resources /app/resources
